@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useAuth } from '@/components/auth/AuthProvider';
 import { useInteraction } from '@/components/InteractionContext';
-import Sabrang3DHero from '@/components/home/Sabrang3DHero';
+import Sabrang3DHero1 from '@/components/home/Sabrang3DHero1';
 import SabrangTaglineSection from '@/components/home/SabrangTaglineSection';
 import SabrangCountdownSection from '@/components/home/SabrangCountdownSection';
 
@@ -22,8 +22,8 @@ export default function HomeClient() {
 
   return (
     <div className="relative bg-[#030008] font-sans">
-      {/* ── SECTION 1: MONUMENTAL 3D SABRANG SCULPTURAL HERO ───────────── */}
-      <Sabrang3DHero />
+      {/* ── SECTION 1: MONUMENTAL 3D SABRANG SCULPTURAL HERO (PRESET 1) ─── */}
+      <Sabrang3DHero1 />
 
       {/* ── SECTION 2: EDITORIAL FESTIVAL TAGLINE SECTION ──────────────── */}
       <SabrangTaglineSection />
